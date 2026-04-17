@@ -22,7 +22,7 @@ BEGIN
 END;
 $$;
 
---Bulk insert (самое важное задание)
+--Bulk insert 
 CREATE OR REPLACE PROCEDURE bulk_insert_contacts(
     names TEXT[],
     phones TEXT[],
@@ -35,7 +35,7 @@ DECLARE
 BEGIN
     FOR i IN 1..array_length(names, 1)
     LOOP
-        -- Проверка: телефон должен быть только из цифр и длина 11
+        -- телефон должен быть только из цифр и длина 11
         IF phones[i] ~ '^[0-9]{11}$' THEN
             CALL upsert_contact(names[i], phones[i]);
         ELSE

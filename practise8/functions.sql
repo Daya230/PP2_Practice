@@ -18,7 +18,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 
---Функция с pagination
+--pagination
 CREATE OR REPLACE FUNCTION get_contacts_paginated(lim INT, offs INT)
 RETURNS TABLE(id INT, name VARCHAR, phone VARCHAR) AS $$
 BEGIN
