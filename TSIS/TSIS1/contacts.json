@@ -1,0 +1,61 @@
+[
+  {
+    "name": "dadw",
+    "email": "adadad@gmail.com",
+    "birthday": "2000-01-01",
+    "group": "AB",
+    "phones": [
+      {
+        "phone": "123456789",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "name": "Anrgdna",
+    "email": "annrgd@mail.com",
+    "birthday": "1991-05-10",
+    "group": "AA",
+    "phones": [
+      {
+        "phone": "987654321",
+        "type": "work"
+      }
+    ]
+  },
+  {
+    "name": "eewewe",
+    "email": "ewew",
+    "birthday": "2000-02-02",
+    "group": "f",
+    "phones": [
+      {
+        "phone": "12345",
+        "type": "work"
+      },
+      {
+        "phone": "12343434",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "name": "dede",
+    "email": "dedee@dede.com",
+    "birthday": "2000-02-03",
+    "group": "V",
+    "phones": [
+      {
+        "phone": "2323232",
+        "type": "home"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "email": null,
+    "birthday": "None",
+    "group": null,
+    "phones": []
+  }
+]
